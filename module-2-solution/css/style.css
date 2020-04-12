@@ -1,25 +1,5 @@
-@media (max-width:767) {
-    section {
-        width: 100%;
-    }
-}
-
-@media (min-width:768) and (max-width:991) {
-    section {
-        width: 50%;
-        float: left;
-    }
-
-    section:nth-child(3) {
-        width: 100%;
-    }
-}
-
-@media (min-width:992) {
-    section {
-        width: 33.33%;
-        float: left;
-    }
+* { 
+    box-sizing: border-box;
 }
 
 body {
@@ -36,7 +16,6 @@ section {
     padding: 30px;
     margin: 5px;
     border: 1px solid black;
-    box-sizing: border-box;
     position: relative;
 }
 
@@ -60,4 +39,28 @@ section {
 
 #third {
     background-color: cornflowerblue;
+}
+
+@media (max-width:767) {
+    section {
+        width: 100%;
+    }
+}
+
+@media (min-width:768) and (max-width:991) {
+    section {
+        width: 50%;
+        float: left;
+    }
+
+    section:nth-child(3) {
+        width: 100%;
+    }
+}
+
+@media (min-width:992) {
+    section {
+        width: 33.33%;
+        float: left;
+    }
 }
