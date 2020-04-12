@@ -18,9 +18,17 @@ p {
     text-align: right;
 }
 
+p:nth-child(3) {
+    text-align: center;
+}
+
 section {
     text-align: center;
     background-color: lawngreen;
+}
+
+a {
+    text-align: center;
 }
 
 a:hover {
