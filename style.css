@@ -1,0 +1,29 @@
+* {
+    color: darkgreen;
+}
+
+body {
+    background-color: white;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: orange;
+    color: red;
+    border: 5px solid black;
+}
+
+p {
+    text-align: right;
+}
+
+section {
+    text-align: center;
+    background-color: lawngreen;
+}
+
+a:hover {
+    background-color: turquoise;
+    color: purple;
+}

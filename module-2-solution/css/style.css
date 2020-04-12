@@ -1,0 +1,63 @@
+@media (max-width:767) {
+    section {
+        width: 100%;
+    }
+}
+
+@media (min-width:768) and (max-width:991) {
+    section {
+        width: 50%;
+        float: left;
+    }
+
+    section:nth-child(3) {
+        width: 100%;
+    }
+}
+
+@media (min-width:992) {
+    section {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 175%;
+}
+
+section {
+    background-color: greenyellow;
+    color: black;
+    padding: 30px;
+    margin: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.section-title {
+    margin: 0;
+    padding: 3px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid black;
+    font-size: 125%;
+}
+
+#first {
+    background-color: pink;
+}
+
+#second {
+    background-color: coral;
+}
+
+#third {
+    background-color: cornflowerblue;
+}
