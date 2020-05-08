@@ -1,0 +1,24 @@
+.navbar {
+    border: 2px solid black;
+}
+h1.navbar-brand {
+    text-align: "left";
+    font-size: 3em;
+}
+#navbar-collapse {
+    padding: 0;
+}
+#navbar-collapse ul {
+    width: 100%;
+    background-color: #cccccc;
+    margin: 0;
+    text-align: center;
+}
+#navbar-collapse li {
+    border-top: 2px solid black;
+}
+
+.mini-container {
+    background-color:#cccccc;
+    margin-bottom: 5px;
+}
