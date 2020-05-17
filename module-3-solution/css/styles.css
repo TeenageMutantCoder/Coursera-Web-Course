@@ -22,3 +22,8 @@ h1.navbar-brand {
     background-color:#cccccc;
     margin-bottom: 5px;
 }
+
+a {
+    text-align: center;
+    display: block;
+}

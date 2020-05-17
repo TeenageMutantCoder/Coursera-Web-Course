@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+a {
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
 body {
     background-color: white;
 }
